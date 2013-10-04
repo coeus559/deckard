@@ -140,3 +140,7 @@ def fox(deckard, input):
     randmsg = random.choice(["Ring-ding-ding-ding-dingeringeding!", "Wa-pa-pa-pa-pa-pa-pow!", "Hatee-hatee-hatee-ho!", "Joff-tchoff-tchoffo-tchoffo-tchoff!", "Jacha-chacha-chacha-chow!", "Fraka-kaka-kaka-kaka-kow!", "A-hee-ahee ha-hee!", "A-oo-oo-oo-ooo!"])
     deckard.say(randmsg)
 fox.rule = '(fox\?)$'
+
+def dutch_crunch(deckard, input):
+    deckard.say("OMFGGGGG SOOO GOOOOOODDDDD")
+dutch_crunch.rule = '(dutch crunch)$'
